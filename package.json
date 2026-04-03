@@ -1,0 +1,33 @@
+{
+  "name": "clean_functions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./src",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.2",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.1.0",
+    "globals": "^17.4.0",
+    "jest": "^30.3.0",
+    "jest-babel": "^1.0.1"
+  },
+  "dependencies": {
+    "core-js": "^3.49.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Semen-Eliseev/jshw_cf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Semen-Eliseev/jshw_cf/issues"
+  },
+  "homepage": "https://github.com/Semen-Eliseev/jshw_cf#readme",
+  "description": ""
+}
