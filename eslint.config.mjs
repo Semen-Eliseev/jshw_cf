@@ -1,9 +1,5 @@
 import { FlatCompat } from "@eslint/eslintrc";
-const compat = new FlatCompat({ 
-  /* legacy shareable configs compatibility */ 
-});
-export default [  
-  // базовая конфигурация окружений и парсер опций  
+export default [   
   {    
     languageOptions: 
     {      
