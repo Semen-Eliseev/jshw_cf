@@ -1,5 +1,5 @@
 
-import { getStatusHealth } from "../health.js";
+import { getStatusHealth } from '../health.js';
 
 test('getStatusHealth Маг', () => {
     const list = [
@@ -10,7 +10,7 @@ test('getStatusHealth Маг', () => {
     ];
 
     const result = getStatusHealth(list);
-    expect(result).toBe(`healthy`);
+    expect(result).toBe('healthy');
 });
 
 test('getStatusHealth Маг1', () => {
@@ -22,7 +22,7 @@ test('getStatusHealth Маг1', () => {
     ];
 
     const result = getStatusHealth(list);
-    expect(result).toBe(`wounded`);
+    expect(result).toBe('wounded');
 });
 
 test('getStatusHealth Маг2', () => {
@@ -34,5 +34,5 @@ test('getStatusHealth Маг2', () => {
     ];
 
     const result = getStatusHealth(list);
-    expect(result).toBe(`critical`);
+    expect(result).toBe('critical');
 });

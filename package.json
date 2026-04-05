@@ -19,6 +19,7 @@
     "jest-babel": "^1.0.1"
   },
   "dependencies": {
+    "@eslint/eslintrc": "^3.3.5",
     "core-js": "^3.49.0"
   },
   "repository": {

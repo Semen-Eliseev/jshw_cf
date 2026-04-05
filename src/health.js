@@ -6,10 +6,10 @@ export function getStatusHealth(items) {
             return 'healthy';
         }
         if(items[i].health > 15 && items[i].health <= 50) {
-           return  'wounded';
+            return  'wounded';
         }
         if(items[i].health < 15) {
-           return  'critical';
+            return  'critical';
         }
 
     }
